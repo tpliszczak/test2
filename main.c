@@ -2,7 +2,7 @@
  * File:   main.c
  * Author: Tomasz Pliszczak
  *
- * Created on 22 Pa?dziernik 2015, 19:01
+ * Created on 22 Pazdziernik 2015, 19:01
  */
 
 #include <stdio.h>
@@ -51,6 +51,7 @@ volatile unsigned char flagPomiarStop;
 volatile unsigned long wynikHz;
 volatile unsigned char n;
 volatile unsigned char wynikHzTmp;
+volatile unsigned char i;
 
 //funkcje
 void USART_init(void);
@@ -58,6 +59,7 @@ void USART_putc(unsigned char c );
 void USART_puts(volatile unsigned char *s,unsigned char l);
 
 
+//git
 
 
 int main(int argc, char** argv) {
