@@ -1,7 +1,7 @@
 
 
 Microchip Technology PIC LITE Macro Assembler V1.34 build -361300703 
-                                                                                               Sun Oct 25 22:07:24 2015
+                                                                                               Mon Oct 26 19:28:37 2015
 
 Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
      1                           	processor	16F1516
@@ -572,7 +572,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
    566 ;;
    567 ;; *************** function _main *****************
    568 ;; Defined at:
-   569 ;;		line 63 in file "main.c"
+   569 ;;		line 65 in file "main.c"
    570 ;; Parameters:    Size  Location     Type
    571 ;;  argc            2   33[BANK1 ] int 
    572 ;;  argv            2   35[BANK1 ] PTR PTR unsigned char 
@@ -607,307 +607,307 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
    601                           ;psect for function _main
    602  0116                     _main:	
    603                           
-   604                           ;main.c: 66: OSCCONbits.IRCF0 = 0;
+   604                           ;main.c: 68: OSCCONbits.IRCF0 = 0;
    605                           
    606                           ;incstack = 0
    607                           ; Regs used in _main: [wreg-fsr1h+status,2+status,0+pclath+cstack]
    608  0116  0021               	movlb	1	; select bank1
    609  0117  1199               	bcf	25,3	;volatile
    610                           
-   611                           ;main.c: 67: OSCCONbits.IRCF1 = 1;
+   611                           ;main.c: 69: OSCCONbits.IRCF1 = 1;
    612  0118  1619               	bsf	25,4	;volatile
    613                           
-   614                           ;main.c: 68: OSCCONbits.IRCF2 = 1;
+   614                           ;main.c: 70: OSCCONbits.IRCF2 = 1;
    615  0119  1699               	bsf	25,5	;volatile
    616                           
-   617                           ;main.c: 69: OSCCONbits.IRCF3 = 1;
+   617                           ;main.c: 71: OSCCONbits.IRCF3 = 1;
    618  011A  1719               	bsf	25,6	;volatile
    619                           
-   620                           ;main.c: 81: OPTION_REGbits.INTEDG = 0;
+   620                           ;main.c: 83: OPTION_REGbits.INTEDG = 0;
    621  011B  1315               	bcf	21,6	;volatile
    622                           
-   623                           ;main.c: 85: OPTION_REGbits.PS0=0;
+   623                           ;main.c: 87: OPTION_REGbits.PS0=0;
    624  011C  1015               	bcf	21,0	;volatile
    625                           
-   626                           ;main.c: 86: OPTION_REGbits.PS1=1;
+   626                           ;main.c: 88: OPTION_REGbits.PS1=1;
    627  011D  1495               	bsf	21,1	;volatile
    628                           
-   629                           ;main.c: 87: OPTION_REGbits.PS2=0;
+   629                           ;main.c: 89: OPTION_REGbits.PS2=0;
    630  011E  1115               	bcf	21,2	;volatile
    631                           
-   632                           ;main.c: 89: OPTION_REGbits.PSA = 1;
+   632                           ;main.c: 91: OPTION_REGbits.PSA = 1;
    633  011F  1595               	bsf	21,3	;volatile
    634                           
-   635                           ;main.c: 91: OPTION_REGbits.TMR0CS = 1;
+   635                           ;main.c: 93: OPTION_REGbits.TMR0CS = 1;
    636  0120  1695               	bsf	21,5	;volatile
    637                           
-   638                           ;main.c: 94: INTCONbits.TMR0IE = 1;
+   638                           ;main.c: 96: INTCONbits.TMR0IE = 1;
    639  0121  168B               	bsf	11,5	;volatile
    640                           
-   641                           ;main.c: 97: T1CONbits.TMR1ON = 1;
+   641                           ;main.c: 99: T1CONbits.TMR1ON = 1;
    642  0122  0020               	movlb	0	; select bank0
    643  0123  1418               	bsf	24,0	;volatile
    644                           
-   645                           ;main.c: 98: T1CONbits.T1CKPS0 = 0;
+   645                           ;main.c: 100: T1CONbits.T1CKPS0 = 0;
    646  0124  1218               	bcf	24,4	;volatile
    647                           
-   648                           ;main.c: 99: T1CONbits.T1CKPS1 = 0;
+   648                           ;main.c: 101: T1CONbits.T1CKPS1 = 0;
    649  0125  1298               	bcf	24,5	;volatile
    650                           
-   651                           ;main.c: 101: T1CONbits.TMR1CS0 = 0;
+   651                           ;main.c: 103: T1CONbits.TMR1CS0 = 0;
    652  0126  1318               	bcf	24,6	;volatile
    653                           
-   654                           ;main.c: 102: T1CONbits.TMR1CS1 = 0;
+   654                           ;main.c: 104: T1CONbits.TMR1CS1 = 0;
    655  0127  1398               	bcf	24,7	;volatile
    656                           
-   657                           ;main.c: 104: PIE1bits.TMR1IE = 1;
+   657                           ;main.c: 106: PIE1bits.TMR1IE = 1;
    658  0128  0021               	movlb	1	; select bank1
    659  0129  1411               	bsf	17,0	;volatile
    660                           
-   661                           ;main.c: 105: INTCONbits.PEIE = 1;
+   661                           ;main.c: 107: INTCONbits.PEIE = 1;
    662  012A  170B               	bsf	11,6	;volatile
    663                           
-   664                           ;main.c: 111: TRISCbits.TRISC2 = 1;
+   664                           ;main.c: 113: TRISCbits.TRISC2 = 1;
    665  012B  150E               	bsf	14,2	;volatile
    666                           
-   667                           ;main.c: 122: PR2 = 244;
+   667                           ;main.c: 124: PR2 = 244;
    668  012C  30F4               	movlw	244
    669  012D  0020               	movlb	0	; select bank0
    670  012E  009B               	movwf	27	;volatile
    671                           
-   672                           ;main.c: 127: T2CONbits.T2CKPS0 = 1;
+   672                           ;main.c: 129: T2CONbits.T2CKPS0 = 1;
    673  012F  141C               	bsf	28,0	;volatile
    674                           
-   675                           ;main.c: 128: T2CONbits.T2CKPS1 = 1;
+   675                           ;main.c: 130: T2CONbits.T2CKPS1 = 1;
    676  0130  149C               	bsf	28,1	;volatile
    677                           
-   678                           ;main.c: 129: T2CONbits.TMR2ON = 1;
+   678                           ;main.c: 131: T2CONbits.TMR2ON = 1;
    679  0131  151C               	bsf	28,2	;volatile
    680                           
-   681                           ;main.c: 131: T2CONbits.T2OUTPS0 = 1;
+   681                           ;main.c: 133: T2CONbits.T2OUTPS0 = 1;
    682  0132  159C               	bsf	28,3	;volatile
    683                           
-   684                           ;main.c: 132: T2CONbits.T2OUTPS1 = 1;
+   684                           ;main.c: 134: T2CONbits.T2OUTPS1 = 1;
    685  0133  161C               	bsf	28,4	;volatile
    686                           
-   687                           ;main.c: 133: T2CONbits.T2OUTPS2 = 1;
+   687                           ;main.c: 135: T2CONbits.T2OUTPS2 = 1;
    688  0134  169C               	bsf	28,5	;volatile
    689                           
-   690                           ;main.c: 134: T2CONbits.T2OUTPS3 = 1;
+   690                           ;main.c: 136: T2CONbits.T2OUTPS3 = 1;
    691  0135  171C               	bsf	28,6	;volatile
    692                           
-   693                           ;main.c: 136: TRISCbits.TRISC2 = 0;
+   693                           ;main.c: 138: TRISCbits.TRISC2 = 0;
    694  0136  0021               	movlb	1	; select bank1
    695  0137  110E               	bcf	14,2	;volatile
    696                           
-   697                           ;main.c: 137: PIE1bits.TMR2IE = 1;
+   697                           ;main.c: 139: PIE1bits.TMR2IE = 1;
    698  0138  1491               	bsf	17,1	;volatile
    699                           
-   700                           ;main.c: 140: INTCONbits.GIE = 1;
+   700                           ;main.c: 142: INTCONbits.GIE = 1;
    701  0139  178B               	bsf	11,7	;volatile
    702                           
-   703                           ;main.c: 145: ANSELBbits.ANSB0 = 0;
+   703                           ;main.c: 147: ANSELBbits.ANSB0 = 0;
    704  013A  0023               	movlb	3	; select bank3
    705  013B  100D               	bcf	13,0	;volatile
    706                           
-   707                           ;main.c: 146: ANSELBbits.ANSB1 = 0;
+   707                           ;main.c: 148: ANSELBbits.ANSB1 = 0;
    708  013C  108D               	bcf	13,1	;volatile
    709                           
-   710                           ;main.c: 147: ANSELBbits.ANSB2 = 0;
+   710                           ;main.c: 149: ANSELBbits.ANSB2 = 0;
    711  013D  110D               	bcf	13,2	;volatile
    712                           
-   713                           ;main.c: 148: ANSELBbits.ANSB3 = 0;
+   713                           ;main.c: 150: ANSELBbits.ANSB3 = 0;
    714  013E  118D               	bcf	13,3	;volatile
    715                           
-   716                           ;main.c: 149: ANSELBbits.ANSB4 = 0;
+   716                           ;main.c: 151: ANSELBbits.ANSB4 = 0;
    717  013F  120D               	bcf	13,4	;volatile
    718                           
-   719                           ;main.c: 150: ANSELBbits.ANSB5= 0;
+   719                           ;main.c: 152: ANSELBbits.ANSB5= 0;
    720  0140  128D               	bcf	13,5	;volatile
    721                           
-   722                           ;main.c: 153: TRISBbits.TRISB0 = 0;
+   722                           ;main.c: 155: TRISBbits.TRISB0 = 0;
    723  0141  0021               	movlb	1	; select bank1
    724  0142  100D               	bcf	13,0	;volatile
    725                           
-   726                           ;main.c: 154: TRISBbits.TRISB1 = 0;
+   726                           ;main.c: 156: TRISBbits.TRISB1 = 0;
    727  0143  108D               	bcf	13,1	;volatile
    728                           
-   729                           ;main.c: 155: TRISBbits.TRISB2 = 0;
+   729                           ;main.c: 157: TRISBbits.TRISB2 = 0;
    730  0144  110D               	bcf	13,2	;volatile
    731                           
-   732                           ;main.c: 157: LATBbits.LATB0 = 0;
+   732                           ;main.c: 159: LATBbits.LATB0 = 0;
    733  0145  0022               	movlb	2	; select bank2
    734  0146  100D               	bcf	13,0	;volatile
    735                           
-   736                           ;main.c: 158: LATBbits.LATB1 = 0;
+   736                           ;main.c: 160: LATBbits.LATB1 = 0;
    737  0147  108D               	bcf	13,1	;volatile
    738                           
-   739                           ;main.c: 159: LATBbits.LATB2 = 0;
+   739                           ;main.c: 161: LATBbits.LATB2 = 0;
    740  0148  110D               	bcf	13,2	;volatile
    741                           
-   742                           ;main.c: 163: ANSELAbits.ANSA0 = 0;
+   742                           ;main.c: 165: ANSELAbits.ANSA0 = 0;
    743  0149  0023               	movlb	3	; select bank3
    744  014A  100C               	bcf	12,0	;volatile
    745                           
-   746                           ;main.c: 164: ANSELAbits.ANSA1 = 0;
+   746                           ;main.c: 166: ANSELAbits.ANSA1 = 0;
    747  014B  108C               	bcf	12,1	;volatile
    748                           
-   749                           ;main.c: 165: ANSELAbits.ANSA2 = 0;
+   749                           ;main.c: 167: ANSELAbits.ANSA2 = 0;
    750  014C  110C               	bcf	12,2	;volatile
    751                           
-   752                           ;main.c: 166: ANSELAbits.ANSA3 = 0;
+   752                           ;main.c: 168: ANSELAbits.ANSA3 = 0;
    753  014D  118C               	bcf	12,3	;volatile
    754                           
-   755                           ;main.c: 167: ANSELAbits.ANSA5 = 0;
+   755                           ;main.c: 169: ANSELAbits.ANSA5 = 0;
    756  014E  128C               	bcf	12,5	;volatile
    757                           
-   758                           ;main.c: 170: TRISAbits.TRISA0 = 0;
+   758                           ;main.c: 172: TRISAbits.TRISA0 = 0;
    759  014F  0021               	movlb	1	; select bank1
    760  0150  100C               	bcf	12,0	;volatile
    761                           
-   762                           ;main.c: 171: TRISAbits.TRISA1 = 0;
+   762                           ;main.c: 173: TRISAbits.TRISA1 = 0;
    763  0151  108C               	bcf	12,1	;volatile
    764                           
-   765                           ;main.c: 172: TRISAbits.TRISA2 = 0;
+   765                           ;main.c: 174: TRISAbits.TRISA2 = 0;
    766  0152  110C               	bcf	12,2	;volatile
    767                           
-   768                           ;main.c: 173: TRISAbits.TRISA3 = 0;
+   768                           ;main.c: 175: TRISAbits.TRISA3 = 0;
    769  0153  118C               	bcf	12,3	;volatile
    770                           
-   771                           ;main.c: 174: TRISAbits.TRISA4 = 1;
+   771                           ;main.c: 176: TRISAbits.TRISA4 = 1;
    772  0154  160C               	bsf	12,4	;volatile
    773                           
-   774                           ;main.c: 175: TRISAbits.TRISA5 = 0;
+   774                           ;main.c: 177: TRISAbits.TRISA5 = 0;
    775  0155  128C               	bcf	12,5	;volatile
    776                           
-   777                           ;main.c: 176: TRISAbits.TRISA6 = 0;
+   777                           ;main.c: 178: TRISAbits.TRISA6 = 0;
    778  0156  130C               	bcf	12,6	;volatile
    779                           
-   780                           ;main.c: 177: TRISAbits.TRISA7 = 0;
+   780                           ;main.c: 179: TRISAbits.TRISA7 = 0;
    781  0157  138C               	bcf	12,7	;volatile
    782                           
-   783                           ;main.c: 180: LATAbits.LATA0 = 0;
+   783                           ;main.c: 182: LATAbits.LATA0 = 0;
    784  0158  0022               	movlb	2	; select bank2
    785  0159  100C               	bcf	12,0	;volatile
    786                           
-   787                           ;main.c: 181: LATAbits.LATA1 = 0;
+   787                           ;main.c: 183: LATAbits.LATA1 = 0;
    788  015A  108C               	bcf	12,1	;volatile
    789                           
-   790                           ;main.c: 182: LATAbits.LATA2 = 0;
+   790                           ;main.c: 184: LATAbits.LATA2 = 0;
    791  015B  110C               	bcf	12,2	;volatile
    792                           
-   793                           ;main.c: 183: LATAbits.LATA3 = 0;
+   793                           ;main.c: 185: LATAbits.LATA3 = 0;
    794  015C  118C               	bcf	12,3	;volatile
    795                           
-   796                           ;main.c: 184: LATAbits.LATA4 = 0;
+   796                           ;main.c: 186: LATAbits.LATA4 = 0;
    797  015D  120C               	bcf	12,4	;volatile
    798                           
-   799                           ;main.c: 185: LATAbits.LATA5 = 0;
+   799                           ;main.c: 187: LATAbits.LATA5 = 0;
    800  015E  128C               	bcf	12,5	;volatile
    801                           
-   802                           ;main.c: 186: LATAbits.LATA6 = 0;
+   802                           ;main.c: 188: LATAbits.LATA6 = 0;
    803  015F  130C               	bcf	12,6	;volatile
    804                           
-   805                           ;main.c: 187: LATAbits.LATA7 = 0;
+   805                           ;main.c: 189: LATAbits.LATA7 = 0;
    806  0160  138C               	bcf	12,7	;volatile
    807                           
-   808                           ;main.c: 191: ANSELBbits.ANSB3 = 0;
+   808                           ;main.c: 193: ANSELBbits.ANSB3 = 0;
    809  0161  0023               	movlb	3	; select bank3
    810  0162  118D               	bcf	13,3	;volatile
    811                           
-   812                           ;main.c: 192: TRISBbits.TRISB3 = 0;
+   812                           ;main.c: 194: TRISBbits.TRISB3 = 0;
    813  0163  0021               	movlb	1	; select bank1
    814  0164  118D               	bcf	13,3	;volatile
    815                           
-   816                           ;main.c: 193: LATBbits.LATB3 = 0;
+   816                           ;main.c: 195: LATBbits.LATB3 = 0;
    817  0165  0022               	movlb	2	; select bank2
    818  0166  118D               	bcf	13,3	;volatile
    819                           
-   820                           ;main.c: 197: ANSELBbits.ANSB4 = 0;
+   820                           ;main.c: 199: ANSELBbits.ANSB4 = 0;
    821  0167  0023               	movlb	3	; select bank3
    822  0168  120D               	bcf	13,4	;volatile
    823                           
-   824                           ;main.c: 198: ANSELBbits.ANSB5 = 0;
+   824                           ;main.c: 200: ANSELBbits.ANSB5 = 0;
    825  0169  128D               	bcf	13,5	;volatile
    826                           
-   827                           ;main.c: 199: TRISBbits.TRISB4 = 0;
+   827                           ;main.c: 201: TRISBbits.TRISB4 = 0;
    828  016A  0021               	movlb	1	; select bank1
    829  016B  120D               	bcf	13,4	;volatile
    830                           
-   831                           ;main.c: 200: TRISBbits.TRISB6 = 0;
+   831                           ;main.c: 202: TRISBbits.TRISB6 = 0;
    832  016C  130D               	bcf	13,6	;volatile
    833                           
-   834                           ;main.c: 201: TRISBbits.TRISB7 = 0;
+   834                           ;main.c: 203: TRISBbits.TRISB7 = 0;
    835  016D  138D               	bcf	13,7	;volatile
    836                           
-   837                           ;main.c: 206: TRISBbits.TRISB5 = 1;
+   837                           ;main.c: 208: TRISBbits.TRISB5 = 1;
    838  016E  168D               	bsf	13,5	;volatile
    839                           
-   840                           ;main.c: 208: OPTION_REGbits.nWPUEN = 0;
+   840                           ;main.c: 210: OPTION_REGbits.nWPUEN = 0;
    841  016F  1395               	bcf	21,7	;volatile
    842                           
-   843                           ;main.c: 209: WPUBbits.WPUB5 = 1;
+   843                           ;main.c: 211: WPUBbits.WPUB5 = 1;
    844  0170  0024               	movlb	4	; select bank4
    845  0171  168D               	bsf	13,5	;volatile
    846                           
-   847                           ;main.c: 211: IOCBNbits.IOCBN5 = 1;
+   847                           ;main.c: 213: IOCBNbits.IOCBN5 = 1;
    848  0172  0027               	movlb	7	; select bank7
    849  0173  1695               	bsf	21,5	;volatile
    850                           
-   851                           ;main.c: 213: INTCONbits.IOCIE = 1;
+   851                           ;main.c: 215: INTCONbits.IOCIE = 1;
    852  0174  158B               	bsf	11,3	;volatile
    853                           
-   854                           ;main.c: 218: TRISC = 0;
+   854                           ;main.c: 220: TRISC = 0;
    855  0175  0021               	movlb	1	; select bank1
    856  0176  018E               	clrf	14	;volatile
    857                           
-   858                           ;main.c: 219: LATC = 0;
+   858                           ;main.c: 221: LATC = 0;
    859  0177  0022               	movlb	2	; select bank2
    860  0178  018E               	clrf	14	;volatile
    861                           
-   862                           ;main.c: 220: ANSELC = 0;
+   862                           ;main.c: 222: ANSELC = 0;
    863  0179  0023               	movlb	3	; select bank3
    864  017A  018E               	clrf	14	;volatile
    865                           
-   866                           ;main.c: 222: TRISCbits.TRISC6 = 1;
+   866                           ;main.c: 224: TRISCbits.TRISC6 = 1;
    867  017B  0021               	movlb	1	; select bank1
    868  017C  170E               	bsf	14,6	;volatile
    869                           
-   870                           ;main.c: 225: ANSELAbits.ANSA5 = 0;
+   870                           ;main.c: 227: ANSELAbits.ANSA5 = 0;
    871  017D  0023               	movlb	3	; select bank3
    872  017E  128C               	bcf	12,5	;volatile
    873                           
-   874                           ;main.c: 226: TRISAbits.TRISA5 = 0;
+   874                           ;main.c: 228: TRISAbits.TRISA5 = 0;
    875  017F  0021               	movlb	1	; select bank1
    876  0180  128C               	bcf	12,5	;volatile
    877                           
-   878                           ;main.c: 227: LATAbits.LATA5 = 0;
+   878                           ;main.c: 229: LATAbits.LATA5 = 0;
    879  0181  0022               	movlb	2	; select bank2
    880  0182  128C               	bcf	12,5	;volatile
    881                           
-   882                           ;main.c: 239: USART_init();
+   882                           ;main.c: 241: USART_init();
    883  0183  3184  24FA  3181   	fcall	_USART_init
    884                           
-   885                           ;main.c: 240: Hz = 0;
+   885                           ;main.c: 242: Hz = 0;
    886  0186  0020               	movlb	0	; select bank0
    887  0187  01CE               	clrf	_Hz	;volatile
    888  0188                     l1585:	
-   889                           ;main.c: 242: while(1){
+   889                           ;main.c: 244: while(1){
    890                           
    891                           
-   892                           ;main.c: 246: if (timer1==0) {
+   892                           ;main.c: 248: if (timer1==0) {
    893  0188  0844               	movf	_timer1,w	;volatile
    894  0189  0445               	iorwf	_timer1+1,w	;volatile
    895  018A  1D03               	btfss	3,2
    896  018B  2996               	goto	l1589
    897                           
-   898                           ;main.c: 247: timer1 =20;
+   898                           ;main.c: 249: timer1 =20;
    899  018C  3014               	movlw	20
    900  018D  00C4               	movwf	_timer1	;volatile
    901  018E  3000               	movlw	0
    902  018F  00C5               	movwf	_timer1+1	;volatile
    903                           
-   904                           ;main.c: 253: Hz = TMR0;
+   904                           ;main.c: 255: Hz = TMR0;
    905  0190  0815               	movf	21,w	;volatile
    906  0191  0021               	movlb	1	; select bank1
    907  0192  00C5               	movwf	??_main^(0+128)
@@ -916,8 +916,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
    910  0195  00CE               	movwf	_Hz	;volatile
    911  0196                     l1589:	
    912                           
-   913                           ;main.c: 272: }
-   914                           ;main.c: 275: if ((flagPomiarStart == 0) && (flagPomiarStop == 0)) {
+   913                           ;main.c: 274: }
+   914                           ;main.c: 277: if ((flagPomiarStart == 0) && (flagPomiarStop == 0)) {
    915  0196  0850               	movf	_flagPomiarStart,w	;volatile
    916  0197  1D03               	btfss	3,2
    917  0198  29A2               	goto	l1595
@@ -925,7 +925,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
    919  019A  1D03               	btfss	3,2
    920  019B  29A2               	goto	l1595
    921                           
-   922                           ;main.c: 277: flagPomiarStart =1;
+   922                           ;main.c: 279: flagPomiarStart =1;
    923  019C  3001               	movlw	1
    924  019D  0021               	movlb	1	; select bank1
    925  019E  00C5               	movwf	??_main^(0+128)
@@ -934,13 +934,13 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
    928  01A1  00D0               	movwf	_flagPomiarStart	;volatile
    929  01A2                     l1595:	
    930                           
-   931                           ;main.c: 278: }
-   932                           ;main.c: 281: if (flagPomiarStart == 1) {
+   931                           ;main.c: 280: }
+   932                           ;main.c: 283: if (flagPomiarStart == 1) {
    933  01A2  0350               	decf	_flagPomiarStart,w	;volatile
    934  01A3  1D03               	btfss	3,2
    935  01A4  29CC               	goto	l1609
    936                           
-   937                           ;main.c: 283: USART_puts("Start pomiaru\r\n", strlen("Start pomiaru\r\n"));
+   937                           ;main.c: 285: USART_puts("Start pomiaru\r\n", strlen("Start pomiaru\r\n"));
    938  01A5  303C               	movlw	low (STR_1| (0+32768))
    939  01A6  00BC               	movwf	USART_puts@s
    940  01A7  3084               	movlw	high (STR_1| (0+32768))
@@ -959,7 +959,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
    953  01B6  00BE               	movwf	USART_puts@l
    954  01B7  3184  24E2  3181   	fcall	_USART_puts
    955                           
-   956                           ;main.c: 287: multi = 0;
+   956                           ;main.c: 289: multi = 0;
    957  01BA  3000               	movlw	0
    958  01BB  0020               	movlb	0	; select bank0
    959  01BC  00D9               	movwf	_multi+3	;volatile
@@ -970,16 +970,16 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
    964  01C1  3000               	movlw	0
    965  01C2  00D6               	movwf	_multi	;volatile
    966                           
-   967                           ;main.c: 288: TMR0 = 0;
+   967                           ;main.c: 290: TMR0 = 0;
    968  01C3  0195               	clrf	21	;volatile
    969                           
-   970                           ;main.c: 289: TMR2 = 0;
+   970                           ;main.c: 291: TMR2 = 0;
    971  01C4  019A               	clrf	26	;volatile
    972                           
-   973                           ;main.c: 290: n=0;
+   973                           ;main.c: 292: n=0;
    974  01C5  01D2               	clrf	_n	;volatile
    975                           
-   976                           ;main.c: 293: flagPomiarStart =2;
+   976                           ;main.c: 295: flagPomiarStart =2;
    977  01C6  3002               	movlw	2
    978  01C7  0021               	movlb	1	; select bank1
    979  01C8  00C5               	movwf	??_main^(0+128)
@@ -988,13 +988,13 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
    982  01CB  00D0               	movwf	_flagPomiarStart	;volatile
    983  01CC                     l1609:	
    984                           
-   985                           ;main.c: 295: }
-   986                           ;main.c: 297: if (flagPomiarStop == 1) {
+   985                           ;main.c: 297: }
+   986                           ;main.c: 299: if (flagPomiarStop == 1) {
    987  01CC  0351               	decf	_flagPomiarStop,w	;volatile
    988  01CD  1D03               	btfss	3,2
    989  01CE  2988               	goto	l1585
    990                           
-   991                           ;main.c: 298: sprintf(ramkaTX,"Czestotliwosc: %lu ",wynikHz);
+   991                           ;main.c: 300: sprintf(ramkaTX,"Czestotliwosc: %lu ",wynikHz);
    992  01CF  30F0               	movlw	240
    993  01D0  0021               	movlb	1	; select bank1
    994  01D1  00AA               	movwf	sprintf@sp^(0+128)
@@ -1014,7 +1014,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1008  01DF  00AE               	movwf	(?_sprintf^(0+128)+4)
   1009  01E0  3182  2220  3181   	fcall	_sprintf
   1010                           
-  1011                           ;main.c: 299: USART_puts(ramkaTX, strlen(ramkaTX));
+  1011                           ;main.c: 301: USART_puts(ramkaTX, strlen(ramkaTX));
   1012  01E3  30F0               	movlw	240
   1013  01E4  0020               	movlb	0	; select bank0
   1014  01E5  00BC               	movwf	USART_puts@s
@@ -1034,7 +1034,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1028  01F5  00BE               	movwf	USART_puts@l
   1029  01F6  3184  24E2  3181   	fcall	_USART_puts
   1030                           
-  1031                           ;main.c: 300: USART_puts("  Hz", strlen("  Hz"));
+  1031                           ;main.c: 302: USART_puts("  Hz", strlen("  Hz"));
   1032  01F9  304C               	movlw	low (STR_4| (0+32768))
   1033  01FA  0020               	movlb	0	; select bank0
   1034  01FB  00BC               	movwf	USART_puts@s
@@ -1054,7 +1054,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1048  020B  00BE               	movwf	USART_puts@l
   1049  020C  3184  24E2  3181   	fcall	_USART_puts
   1050                           
-  1051                           ;main.c: 301: USART_puts("\r\n",2);
+  1051                           ;main.c: 303: USART_puts("\r\n",2);
   1052  020F  3049               	movlw	low ((STR_1+13)| (0+32768))
   1053  0210  0020               	movlb	0	; select bank0
   1054  0211  00BC               	movwf	USART_puts@s
@@ -1068,14 +1068,14 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1062  0219  00BE               	movwf	USART_puts@l
   1063  021A  3184  24E2  3181   	fcall	_USART_puts
   1064                           
-  1065                           ;main.c: 302: flagPomiarStop = 0;
+  1065                           ;main.c: 304: flagPomiarStop = 0;
   1066  021D  0020               	movlb	0	; select bank0
   1067  021E  01D1               	clrf	_flagPomiarStop	;volatile
   1068  021F  2988               	goto	l1585
   1069  0220                     __end_of_main:	
-  1070                           ;main.c: 303: }
-  1071                           ;main.c: 306: }
-  1072                           ;main.c: 308: return (0);
+  1070                           ;main.c: 305: }
+  1071                           ;main.c: 308: }
+  1072                           ;main.c: 310: return (0);
   1073                           ;	Return value of _main is never used
   1074                           
   1075                           
@@ -1821,7 +1821,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1814  04E2                     __ptext5:	
   1815 ;; *************** function _USART_puts *****************
   1816 ;; Defined at:
-  1817 ;;		line 349 in file "main.c"
+  1817 ;;		line 351 in file "main.c"
   1818 ;; Parameters:    Size  Location     Type
   1819 ;;  s               2   28[BANK0 ] PTR volatile unsigned ch
   1820 ;;		 -> STR_6(3), STR_4(5), ramkaTX(256), STR_1(16), 
@@ -1855,7 +1855,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1848                           ;psect for function _USART_puts
   1849  04E2                     _USART_puts:	
   1850                           
-  1851                           ;main.c: 351: for(unsigned char i = 0;i < l;i++)
+  1851                           ;main.c: 353: for(unsigned char i = 0;i < l;i++)
   1852                           
   1853                           ;incstack = 0
   1854                           ; Regs used in _USART_puts: [wreg-fsr0h+status,2+status,0+pclath+cstack]
@@ -1867,8 +1867,8 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1860  04E6  1803               	btfsc	3,0
   1861  04E7  0008               	return
   1862                           
-  1863                           ;main.c: 352: {
-  1864                           ;main.c: 353: USART_putc(*s);
+  1863                           ;main.c: 354: {
+  1864                           ;main.c: 355: USART_putc(*s);
   1865  04E8  083C               	movf	USART_puts@s,w
   1866  04E9  0084               	movwf	4
   1867  04EA  083D               	movf	USART_puts@s+1,w
@@ -1876,7 +1876,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1869  04EC  0800               	movf	0,w	;code access
   1870  04ED  3185  2515  3184   	fcall	_USART_putc
   1871                           
-  1872                           ;main.c: 355: s++;
+  1872                           ;main.c: 357: s++;
   1873  04F0  3001               	movlw	1
   1874  04F1  0020               	movlb	0	; select bank0
   1875  04F2  07BC               	addwf	USART_puts@s,f
@@ -1893,7 +1893,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1886  0515                     __ptext6:	
   1887 ;; *************** function _USART_putc *****************
   1888 ;; Defined at:
-  1889 ;;		line 343 in file "main.c"
+  1889 ;;		line 345 in file "main.c"
   1890 ;; Parameters:    Size  Location     Type
   1891 ;;  c               1    wreg     unsigned char 
   1892 ;; Auto vars:     Size  Location     Type
@@ -1931,13 +1931,13 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1924  0515  0020               	movlb	0	; select bank0
   1925  0516  00B6               	movwf	USART_putc@c
   1926  0517                     l124:	
-  1927                           ;main.c: 345: while (!TXSTAbits.TRMT);
+  1927                           ;main.c: 347: while (!TXSTAbits.TRMT);
   1928                           
   1929  0517  0023               	movlb	3	; select bank3
   1930  0518  1C9E               	btfss	30,1	;volatile
   1931  0519  2D17               	goto	l124
   1932                           
-  1933                           ;main.c: 346: TXREG = c;
+  1933                           ;main.c: 348: TXREG = c;
   1934  051A  0020               	movlb	0	; select bank0
   1935  051B  0836               	movf	USART_putc@c,w
   1936  051C  0023               	movlb	3	; select bank3
@@ -1949,7 +1949,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1942  04FA                     __ptext7:	
   1943 ;; *************** function _USART_init *****************
   1944 ;; Defined at:
-  1945 ;;		line 314 in file "main.c"
+  1945 ;;		line 316 in file "main.c"
   1946 ;; Parameters:    Size  Location     Type
   1947 ;;		None
   1948 ;; Auto vars:     Size  Location     Type
@@ -1981,40 +1981,40 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   1974                           ;psect for function _USART_init
   1975  04FA                     _USART_init:	
   1976                           
-  1977                           ;main.c: 317: BAUDCONbits.ABDOVF = 1;
+  1977                           ;main.c: 319: BAUDCONbits.ABDOVF = 1;
   1978                           
   1979                           ;incstack = 0
   1980                           ; Regs used in _USART_init: [wreg+status,2]
   1981  04FA  0023               	movlb	3	; select bank3
   1982  04FB  179F               	bsf	31,7	;volatile
   1983                           
-  1984                           ;main.c: 320: TXSTAbits.TXEN = 1;
+  1984                           ;main.c: 322: TXSTAbits.TXEN = 1;
   1985  04FC  169E               	bsf	30,5	;volatile
   1986                           
-  1987                           ;main.c: 321: TXSTAbits.SYNC = 0;
+  1987                           ;main.c: 323: TXSTAbits.SYNC = 0;
   1988  04FD  121E               	bcf	30,4	;volatile
   1989                           
-  1990                           ;main.c: 322: RCSTAbits.SPEN = 1;
+  1990                           ;main.c: 324: RCSTAbits.SPEN = 1;
   1991  04FE  179D               	bsf	29,7	;volatile
   1992                           
-  1993                           ;main.c: 323: TXSTAbits.BRGH = 1;
+  1993                           ;main.c: 325: TXSTAbits.BRGH = 1;
   1994  04FF  151E               	bsf	30,2	;volatile
   1995                           
-  1996                           ;main.c: 330: SPBRGL = 51;
+  1996                           ;main.c: 332: SPBRGL = 51;
   1997  0500  3033               	movlw	51
   1998  0501  009B               	movwf	27	;volatile
   1999                           
-  2000                           ;main.c: 332: SPBRGH = 0x00;
+  2000                           ;main.c: 334: SPBRGH = 0x00;
   2001  0502  019C               	clrf	28	;volatile
   2002                           
-  2003                           ;main.c: 336: BAUDCONbits.BRG16 = 1;
+  2003                           ;main.c: 338: BAUDCONbits.BRG16 = 1;
   2004  0503  159F               	bsf	31,3	;volatile
   2005                           
-  2006                           ;main.c: 338: SPBRGL = 8;
+  2006                           ;main.c: 340: SPBRGL = 8;
   2007  0504  3008               	movlw	8
   2008  0505  009B               	movwf	27	;volatile
   2009                           
-  2010                           ;main.c: 340: SPBRGH = 2;
+  2010                           ;main.c: 342: SPBRGH = 2;
   2011  0506  3002               	movlw	2
   2012  0507  009C               	movwf	28	;volatile
   2013  0508  0008               	return
@@ -2024,7 +2024,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   2017  0004                     __pintentry:	
   2018 ;; *************** function _ISR *****************
   2019 ;; Defined at:
-  2020 ;;		line 363 in file "main.c"
+  2020 ;;		line 365 in file "main.c"
   2021 ;; Parameters:    Size  Location     Type
   2022 ;;		None
   2023 ;; Auto vars:     Size  Location     Type
@@ -2062,17 +2062,17 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   2055  0006  087F               	movf	127,w
   2056  0007  00B5               	movwf	??_ISR+8
   2057                           
-  2058                           ;main.c: 365: wynikHzTmp = TMR0;
+  2058                           ;main.c: 367: wynikHzTmp = TMR0;
   2059  0008  0815               	movf	21,w	;volatile
   2060  0009  00AD               	movwf	??_ISR
   2061  000A  082D               	movf	??_ISR,w
   2062  000B  00D4               	movwf	_wynikHzTmp	;volatile
   2063                           
-  2064                           ;main.c: 368: if ( INTCONbits.TMR0IF == 1 ) {
+  2064                           ;main.c: 370: if ( INTCONbits.TMR0IF == 1 ) {
   2065  000C  1D0B               	btfss	11,2	;volatile
   2066  000D  2817               	goto	i1l1319
   2067                           
-  2068                           ;main.c: 369: multi++;
+  2068                           ;main.c: 371: multi++;
   2069  000E  3001               	movlw	1
   2070  000F  07D6               	addwf	_multi,f	;volatile
   2071  0010  3000               	movlw	0
@@ -2082,22 +2082,22 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   2075  0014  3000               	movlw	0
   2076  0015  3DD9               	addwfc	_multi+3,f	;volatile
   2077                           
-  2078                           ;main.c: 370: INTCONbits.TMR0IF = 0;
+  2078                           ;main.c: 372: INTCONbits.TMR0IF = 0;
   2079  0016  110B               	bcf	11,2	;volatile
   2080  0017                     i1l1319:	
   2081                           
-  2082                           ;main.c: 371: }
-  2083                           ;main.c: 377: if ( PIR1bits.TMR2IF == 1) {
+  2082                           ;main.c: 373: }
+  2083                           ;main.c: 379: if ( PIR1bits.TMR2IF == 1) {
   2084  0017  1C91               	btfss	17,1	;volatile
   2085  0018  28B9               	goto	i1l1359
   2086                           
-  2087                           ;main.c: 378: n++;
+  2087                           ;main.c: 380: n++;
   2088  0019  3001               	movlw	1
   2089  001A  00AD               	movwf	??_ISR
   2090  001B  082D               	movf	??_ISR,w
   2091  001C  07D2               	addwf	_n,f	;volatile
   2092                           
-  2093                           ;main.c: 379: if ( (n>19) && (flagPomiarStart == 2) ) {
+  2093                           ;main.c: 381: if ( (n>19) && (flagPomiarStart == 2) ) {
   2094  001D  3014               	movlw	20
   2095  001E  0252               	subwf	_n,w	;volatile
   2096  001F  1C03               	skipc
@@ -2107,7 +2107,7 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   2100  0023  1D03               	btfss	3,2
   2101  0024  288F               	goto	i1l1337
   2102                           
-  2103                           ;main.c: 381: wynikHz = (9978UL*((multi * 256)+ wynikHzTmp))/10000;
+  2103                           ;main.c: 383: wynikHz = (9978UL*((multi * 256)+ wynikHzTmp))/10000;
   2104  0025  3000               	movlw	0
   2105  0026  00A3               	movwf	i1___lldiv@divisor+3
   2106  0027  3000               	movlw	0
@@ -2189,20 +2189,20 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   2182  0076  0021               	movlb	1	; select bank1
   2183  0077  00C6               	movwf	_wynikHz^(0+128)	;volatile
   2184                           
-  2185                           ;main.c: 382: flagPomiarStart = 0;
+  2185                           ;main.c: 384: flagPomiarStart = 0;
   2186  0078  0020               	movlb	0	; select bank0
   2187  0079  01D0               	clrf	_flagPomiarStart	;volatile
   2188                           
-  2189                           ;main.c: 383: flagPomiarStop = 1;
+  2189                           ;main.c: 385: flagPomiarStop = 1;
   2190  007A  3001               	movlw	1
   2191  007B  00AD               	movwf	??_ISR
   2192  007C  082D               	movf	??_ISR,w
   2193  007D  00D1               	movwf	_flagPomiarStop	;volatile
   2194                           
-  2195                           ;main.c: 384: n=0;
+  2195                           ;main.c: 386: n=0;
   2196  007E  01D2               	clrf	_n	;volatile
   2197                           
-  2198                           ;main.c: 386: LATCbits.LATC4 ^= 1;
+  2198                           ;main.c: 388: LATCbits.LATC4 ^= 1;
   2199  007F  0022               	movlb	2	; select bank2
   2200  0080  0E0E               	swapf	14,w	;volatile
   2201  0081  3901               	andlw	1
@@ -2221,111 +2221,111 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   2214  008E  008E               	movwf	14	;volatile
   2215  008F                     i1l1337:	
   2216                           
-  2217                           ;main.c: 387: }
-  2218                           ;main.c: 391: if (timer1 >0) {
+  2217                           ;main.c: 389: }
+  2218                           ;main.c: 393: if (timer1 >0) {
   2219  008F  0020               	movlb	0	; select bank0
   2220  0090  0844               	movf	_timer1,w	;volatile
   2221  0091  0445               	iorwf	_timer1+1,w	;volatile
   2222  0092  1903               	btfsc	3,2
   2223  0093  2898               	goto	i1l1341
   2224                           
-  2225                           ;main.c: 392: timer1--;
+  2225                           ;main.c: 394: timer1--;
   2226  0094  3001               	movlw	1
   2227  0095  02C4               	subwf	_timer1,f	;volatile
   2228  0096  3000               	movlw	0
   2229  0097  3BC5               	subwfb	_timer1+1,f	;volatile
   2230  0098                     i1l1341:	
   2231                           
-  2232                           ;main.c: 393: }
-  2233                           ;main.c: 394: if (timer2 >0) {
+  2232                           ;main.c: 395: }
+  2233                           ;main.c: 396: if (timer2 >0) {
   2234  0098  0846               	movf	_timer2,w	;volatile
   2235  0099  0447               	iorwf	_timer2+1,w	;volatile
   2236  009A  1903               	btfsc	3,2
   2237  009B  28A0               	goto	i1l1345
   2238                           
-  2239                           ;main.c: 395: timer2--;
+  2239                           ;main.c: 397: timer2--;
   2240  009C  3001               	movlw	1
   2241  009D  02C6               	subwf	_timer2,f	;volatile
   2242  009E  3000               	movlw	0
   2243  009F  3BC7               	subwfb	_timer2+1,f	;volatile
   2244  00A0                     i1l1345:	
   2245                           
-  2246                           ;main.c: 396: }
-  2247                           ;main.c: 397: if (timer3 >0) {
+  2246                           ;main.c: 398: }
+  2247                           ;main.c: 399: if (timer3 >0) {
   2248  00A0  0848               	movf	_timer3,w	;volatile
   2249  00A1  0449               	iorwf	_timer3+1,w	;volatile
   2250  00A2  1903               	btfsc	3,2
   2251  00A3  28A8               	goto	i1l1349
   2252                           
-  2253                           ;main.c: 398: timer3--;
+  2253                           ;main.c: 400: timer3--;
   2254  00A4  3001               	movlw	1
   2255  00A5  02C8               	subwf	_timer3,f	;volatile
   2256  00A6  3000               	movlw	0
   2257  00A7  3BC9               	subwfb	_timer3+1,f	;volatile
   2258  00A8                     i1l1349:	
   2259                           
-  2260                           ;main.c: 399: }
-  2261                           ;main.c: 400: if (timer4 >0) {
+  2260                           ;main.c: 401: }
+  2261                           ;main.c: 402: if (timer4 >0) {
   2262  00A8  084A               	movf	_timer4,w	;volatile
   2263  00A9  044B               	iorwf	_timer4+1,w	;volatile
   2264  00AA  1903               	btfsc	3,2
   2265  00AB  28B0               	goto	i1l1353
   2266                           
-  2267                           ;main.c: 401: timer4--;
+  2267                           ;main.c: 403: timer4--;
   2268  00AC  3001               	movlw	1
   2269  00AD  02CA               	subwf	_timer4,f	;volatile
   2270  00AE  3000               	movlw	0
   2271  00AF  3BCB               	subwfb	_timer4+1,f	;volatile
   2272  00B0                     i1l1353:	
   2273                           
-  2274                           ;main.c: 402: }
-  2275                           ;main.c: 403: if (timer5 >0) {
+  2274                           ;main.c: 404: }
+  2275                           ;main.c: 405: if (timer5 >0) {
   2276  00B0  084C               	movf	_timer5,w	;volatile
   2277  00B1  044D               	iorwf	_timer5+1,w	;volatile
   2278  00B2  1903               	btfsc	3,2
   2279  00B3  28B8               	goto	i1l1357
   2280                           
-  2281                           ;main.c: 404: timer5--;
+  2281                           ;main.c: 406: timer5--;
   2282  00B4  3001               	movlw	1
   2283  00B5  02CC               	subwf	_timer5,f	;volatile
   2284  00B6  3000               	movlw	0
   2285  00B7  3BCD               	subwfb	_timer5+1,f	;volatile
   2286  00B8                     i1l1357:	
   2287                           
-  2288                           ;main.c: 405: }
-  2289                           ;main.c: 407: PIR1bits.TMR2IF = 0;
+  2288                           ;main.c: 407: }
+  2289                           ;main.c: 409: PIR1bits.TMR2IF = 0;
   2290  00B8  1091               	bcf	17,1	;volatile
   2291  00B9                     i1l1359:	
   2292                           
-  2293                           ;main.c: 408: }
-  2294                           ;main.c: 413: if ( PIR1bits.TMR1IF == 1) {
+  2293                           ;main.c: 410: }
+  2294                           ;main.c: 415: if ( PIR1bits.TMR1IF == 1) {
   2295  00B9  1C11               	btfss	17,0	;volatile
   2296  00BA  28DB               	goto	i1l1369
   2297                           
-  2298                           ;main.c: 422: TMR1H = 255;
+  2298                           ;main.c: 424: TMR1H = 255;
   2299  00BB  30FF               	movlw	255
   2300  00BC  0097               	movwf	23	;volatile
   2301                           
-  2302                           ;main.c: 423: TMR1L = 6;
+  2302                           ;main.c: 425: TMR1L = 6;
   2303  00BD  3006               	movlw	6
   2304  00BE  0096               	movwf	22	;volatile
   2305                           
-  2306                           ;main.c: 426: TMR1H = 253;
+  2306                           ;main.c: 428: TMR1H = 253;
   2307  00BF  30FD               	movlw	253
   2308  00C0  0097               	movwf	23	;volatile
   2309                           
-  2310                           ;main.c: 427: TMR1L = 143;
+  2310                           ;main.c: 429: TMR1L = 143;
   2311  00C1  308F               	movlw	143
   2312  00C2  0096               	movwf	22	;volatile
   2313                           
-  2314                           ;main.c: 428: TMR1H = 255;
+  2314                           ;main.c: 430: TMR1H = 255;
   2315  00C3  30FF               	movlw	255
   2316  00C4  0097               	movwf	23	;volatile
   2317                           
-  2318                           ;main.c: 429: TMR1L = 0;
+  2318                           ;main.c: 431: TMR1L = 0;
   2319  00C5  0196               	clrf	22	;volatile
   2320                           
-  2321                           ;main.c: 431: LATCbits.LATC5 ^= 1;
+  2321                           ;main.c: 433: LATCbits.LATC5 ^= 1;
   2322  00C6  0022               	movlb	2	; select bank2
   2323  00C7  0E0E               	swapf	14,w	;volatile
   2324  00C8  0020               	movlb	0	; select bank0
@@ -2346,49 +2346,49 @@ Microchip Technology Omniscient Code Generator (Lite mode) build 201502162209
   2339  00D7  0022               	movlb	2	; select bank2
   2340  00D8  008E               	movwf	14	;volatile
   2341                           
-  2342                           ;main.c: 432: PIR1bits.TMR1IF = 0;
+  2342                           ;main.c: 434: PIR1bits.TMR1IF = 0;
   2343  00D9  0020               	movlb	0	; select bank0
   2344  00DA  1011               	bcf	17,0	;volatile
   2345  00DB                     i1l1369:	
   2346                           
-  2347                           ;main.c: 433: }
-  2348                           ;main.c: 441: if ( INTCONbits.IOCIF == 1 ) {
+  2347                           ;main.c: 435: }
+  2348                           ;main.c: 443: if ( INTCONbits.IOCIF == 1 ) {
   2349  00DB  1C0B               	btfss	11,0	;volatile
   2350  00DC  28F2               	goto	i1l148
   2351                           
-  2352                           ;main.c: 444: if (IOCBFbits.IOCBF5 == 1) {
+  2352                           ;main.c: 446: if (IOCBFbits.IOCBF5 == 1) {
   2353  00DD  0027               	movlb	7	; select bank7
   2354  00DE  1E96               	btfss	22,5	;volatile
   2355  00DF  28F0               	goto	i1l1377
   2356                           
-  2357                           ;main.c: 446: if (przycisk == 0) {
+  2357                           ;main.c: 448: if (przycisk == 0) {
   2358  00E0  0020               	movlb	0	; select bank0
   2359  00E1  0853               	movf	_przycisk,w	;volatile
   2360  00E2  1D03               	btfss	3,2
   2361  00E3  28F0               	goto	i1l1377
   2362                           
-  2363                           ;main.c: 447: buzer = 4;
+  2363                           ;main.c: 449: buzer = 4;
   2364  00E4  3004               	movlw	4
   2365  00E5  00AD               	movwf	??_ISR
   2366  00E6  082D               	movf	??_ISR,w
   2367  00E7  00CF               	movwf	_buzer	;volatile
   2368                           
-  2369                           ;main.c: 448: timer1 = 1000;
+  2369                           ;main.c: 450: timer1 = 1000;
   2370  00E8  30E8               	movlw	232
   2371  00E9  00C4               	movwf	_timer1	;volatile
   2372  00EA  3003               	movlw	3
   2373  00EB  00C5               	movwf	_timer1+1	;volatile
   2374                           
-  2375                           ;main.c: 449: przycisk = 1;
+  2375                           ;main.c: 451: przycisk = 1;
   2376  00EC  3001               	movlw	1
   2377  00ED  00AD               	movwf	??_ISR
   2378  00EE  082D               	movf	??_ISR,w
   2379  00EF  00D3               	movwf	_przycisk	;volatile
   2380  00F0                     i1l1377:	
   2381                           
-  2382                           ;main.c: 451: }
-  2383                           ;main.c: 453: }
-  2384                           ;main.c: 454: IOCBF = 0;
+  2382                           ;main.c: 453: }
+  2383                           ;main.c: 455: }
+  2384                           ;main.c: 456: IOCBF = 0;
   2385  00F0  0027               	movlb	7	; select bank7
   2386  00F1  0196               	clrf	22	;volatile
   2387  00F2                     i1l148:	
@@ -2916,7 +2916,7 @@ SFR31                0      0       0      32        0.0%
 
 
 Microchip Technology PIC Macro Assembler V1.34 build -361300703 
-Symbol Table                                                                                   Sun Oct 25 22:07:24 2015
+Symbol Table                                                                                   Mon Oct 26 19:28:37 2015
 
              _USART_putc 0515               _USART_puts 04E2                        _n 0052  
             __CFG_CP$OFF 0000                       _Hz 004E              __CFG_LVP$ON 0000  

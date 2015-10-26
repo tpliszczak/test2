@@ -11,6 +11,10 @@
 # All addresses and the length are given in unqualified hexadecimal
 # in delta units.  Any other numeric values are decimal.
 %PSECTS
+$C:\Temp\s6qk.obj
+reset_vec CODE 0 0 0 2 2
+end_init CODE 0 F6 F6 2 2
+config CONFIG 0 8007 8007 2 2
 $dist/default/production\MiernikHz.X.production.obj
 cinit CODE 0 F8 F8 1E 2
 text1 CODE 0 4C3 4C3 1F 2
@@ -32,10 +36,6 @@ bssBANK1 BANK1 1 C6 C6 4 1
 stringtext STRCODE 0 400 400 51 2
 clrtext CODE 0 509 509 C 2
 bssCOMMON COMMON 1 7D 7D 1 1
-$C:\Temp\s7eg.obj
-reset_vec CODE 0 0 0 2 2
-end_init CODE 0 F6 F6 2 2
-config CONFIG 0 8007 8007 2 2
 # %UNUSED Section
 # This section enumerates the unused ranges of each CLASS. Each entry
 # is described on a single line as follows:
@@ -112,181 +112,181 @@ STRING 51F-1FFF 2
 # All other numeric values are in decimal.
 %LINETAB
 $dist/default/production\MiernikHz.X.production.obj
-4 intentry CODE >363:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-8 intentry CODE >365:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-C intentry CODE >368:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-E intentry CODE >369:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-16 intentry CODE >370:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-17 intentry CODE >377:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-19 intentry CODE >378:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1D intentry CODE >379:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-25 intentry CODE >381:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-78 intentry CODE >382:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-7A intentry CODE >383:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-7E intentry CODE >384:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-7F intentry CODE >386:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-8F intentry CODE >391:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-94 intentry CODE >392:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-98 intentry CODE >394:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-9C intentry CODE >395:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-A0 intentry CODE >397:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-A4 intentry CODE >398:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-A8 intentry CODE >400:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-AC intentry CODE >401:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-B0 intentry CODE >403:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-B4 intentry CODE >404:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-B8 intentry CODE >407:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-B9 intentry CODE >413:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-BB intentry CODE >422:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-BD intentry CODE >423:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-BF intentry CODE >426:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-C1 intentry CODE >427:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-C3 intentry CODE >428:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-C5 intentry CODE >429:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-C6 intentry CODE >431:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-D9 intentry CODE >432:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-DB intentry CODE >441:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-DD intentry CODE >444:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-E0 intentry CODE >446:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-E4 intentry CODE >447:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-E8 intentry CODE >448:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-EC intentry CODE >449:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-F0 intentry CODE >454:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-F2 intentry CODE >459:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-F8 cinit CODE >524:C:\Temp\s7eg.
-F8 cinit CODE >527:C:\Temp\s7eg.
-F8 cinit CODE >608:C:\Temp\s7eg.
-F9 cinit CODE >609:C:\Temp\s7eg.
-FA cinit CODE >610:C:\Temp\s7eg.
-FB cinit CODE >611:C:\Temp\s7eg.
-FC cinit CODE >612:C:\Temp\s7eg.
-FD cinit CODE >613:C:\Temp\s7eg.
-FE cinit CODE >614:C:\Temp\s7eg.
-FF cinit CODE >615:C:\Temp\s7eg.
-100 cinit CODE >616:C:\Temp\s7eg.
-103 cinit CODE >620:C:\Temp\s7eg.
-104 cinit CODE >624:C:\Temp\s7eg.
-105 cinit CODE >625:C:\Temp\s7eg.
-106 cinit CODE >626:C:\Temp\s7eg.
-107 cinit CODE >627:C:\Temp\s7eg.
-108 cinit CODE >628:C:\Temp\s7eg.
-109 cinit CODE >629:C:\Temp\s7eg.
-10A cinit CODE >630:C:\Temp\s7eg.
-10B cinit CODE >631:C:\Temp\s7eg.
-10C cinit CODE >632:C:\Temp\s7eg.
-10E cinit CODE >636:C:\Temp\s7eg.
-10F cinit CODE >637:C:\Temp\s7eg.
-110 cinit CODE >638:C:\Temp\s7eg.
-111 cinit CODE >639:C:\Temp\s7eg.
-112 cinit CODE >640:C:\Temp\s7eg.
-113 cinit CODE >646:C:\Temp\s7eg.
-113 cinit CODE >647:C:\Temp\s7eg.
-114 cinit CODE >648:C:\Temp\s7eg.
-116 maintext CODE >63:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-116 maintext CODE >66:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-118 maintext CODE >67:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-119 maintext CODE >68:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-11A maintext CODE >69:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-11B maintext CODE >81:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-11C maintext CODE >85:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-11D maintext CODE >86:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-11E maintext CODE >87:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-11F maintext CODE >89:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-120 maintext CODE >91:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-121 maintext CODE >94:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-122 maintext CODE >97:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-124 maintext CODE >98:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-125 maintext CODE >99:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-126 maintext CODE >101:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-127 maintext CODE >102:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-128 maintext CODE >104:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-12A maintext CODE >105:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-12B maintext CODE >111:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-12C maintext CODE >122:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-12F maintext CODE >127:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-130 maintext CODE >128:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-131 maintext CODE >129:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-132 maintext CODE >131:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-133 maintext CODE >132:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-134 maintext CODE >133:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-135 maintext CODE >134:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-136 maintext CODE >136:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-138 maintext CODE >137:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-139 maintext CODE >140:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-13A maintext CODE >145:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-13C maintext CODE >146:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-13D maintext CODE >147:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-13E maintext CODE >148:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-13F maintext CODE >149:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-140 maintext CODE >150:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-141 maintext CODE >153:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-143 maintext CODE >154:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-144 maintext CODE >155:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-145 maintext CODE >157:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-147 maintext CODE >158:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-148 maintext CODE >159:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-149 maintext CODE >163:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-14B maintext CODE >164:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-14C maintext CODE >165:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-14D maintext CODE >166:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-14E maintext CODE >167:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-14F maintext CODE >170:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-151 maintext CODE >171:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-152 maintext CODE >172:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-153 maintext CODE >173:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-154 maintext CODE >174:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-155 maintext CODE >175:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-156 maintext CODE >176:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-157 maintext CODE >177:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-158 maintext CODE >180:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-15A maintext CODE >181:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-15B maintext CODE >182:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-15C maintext CODE >183:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-15D maintext CODE >184:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-15E maintext CODE >185:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-15F maintext CODE >186:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-160 maintext CODE >187:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-161 maintext CODE >191:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-163 maintext CODE >192:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-165 maintext CODE >193:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-167 maintext CODE >197:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-169 maintext CODE >198:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-16A maintext CODE >199:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-16C maintext CODE >200:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-16D maintext CODE >201:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-16E maintext CODE >206:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-16F maintext CODE >208:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-170 maintext CODE >209:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-172 maintext CODE >211:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-174 maintext CODE >213:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-175 maintext CODE >218:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-177 maintext CODE >219:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-179 maintext CODE >220:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-17B maintext CODE >222:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-17D maintext CODE >225:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-17F maintext CODE >226:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-181 maintext CODE >227:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-183 maintext CODE >239:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-186 maintext CODE >240:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-188 maintext CODE >246:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-18C maintext CODE >247:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-190 maintext CODE >253:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-196 maintext CODE >275:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-19C maintext CODE >277:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1A2 maintext CODE >281:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1A5 maintext CODE >283:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1BA maintext CODE >287:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1C3 maintext CODE >288:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1C4 maintext CODE >289:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1C5 maintext CODE >290:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1C6 maintext CODE >293:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1CC maintext CODE >297:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1CF maintext CODE >298:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1E3 maintext CODE >299:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-1F9 maintext CODE >300:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-20F maintext CODE >301:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-21D maintext CODE >302:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-21F maintext CODE >242:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+4 intentry CODE >365:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+8 intentry CODE >367:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+C intentry CODE >370:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+E intentry CODE >371:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+16 intentry CODE >372:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+17 intentry CODE >379:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+19 intentry CODE >380:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1D intentry CODE >381:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+25 intentry CODE >383:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+78 intentry CODE >384:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+7A intentry CODE >385:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+7E intentry CODE >386:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+7F intentry CODE >388:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+8F intentry CODE >393:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+94 intentry CODE >394:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+98 intentry CODE >396:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+9C intentry CODE >397:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+A0 intentry CODE >399:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+A4 intentry CODE >400:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+A8 intentry CODE >402:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+AC intentry CODE >403:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+B0 intentry CODE >405:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+B4 intentry CODE >406:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+B8 intentry CODE >409:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+B9 intentry CODE >415:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+BB intentry CODE >424:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+BD intentry CODE >425:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+BF intentry CODE >428:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+C1 intentry CODE >429:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+C3 intentry CODE >430:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+C5 intentry CODE >431:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+C6 intentry CODE >433:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+D9 intentry CODE >434:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+DB intentry CODE >443:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+DD intentry CODE >446:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+E0 intentry CODE >448:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+E4 intentry CODE >449:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+E8 intentry CODE >450:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+EC intentry CODE >451:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+F0 intentry CODE >456:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+F2 intentry CODE >461:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+F8 cinit CODE >524:C:\Temp\s6qk.
+F8 cinit CODE >527:C:\Temp\s6qk.
+F8 cinit CODE >608:C:\Temp\s6qk.
+F9 cinit CODE >609:C:\Temp\s6qk.
+FA cinit CODE >610:C:\Temp\s6qk.
+FB cinit CODE >611:C:\Temp\s6qk.
+FC cinit CODE >612:C:\Temp\s6qk.
+FD cinit CODE >613:C:\Temp\s6qk.
+FE cinit CODE >614:C:\Temp\s6qk.
+FF cinit CODE >615:C:\Temp\s6qk.
+100 cinit CODE >616:C:\Temp\s6qk.
+103 cinit CODE >620:C:\Temp\s6qk.
+104 cinit CODE >624:C:\Temp\s6qk.
+105 cinit CODE >625:C:\Temp\s6qk.
+106 cinit CODE >626:C:\Temp\s6qk.
+107 cinit CODE >627:C:\Temp\s6qk.
+108 cinit CODE >628:C:\Temp\s6qk.
+109 cinit CODE >629:C:\Temp\s6qk.
+10A cinit CODE >630:C:\Temp\s6qk.
+10B cinit CODE >631:C:\Temp\s6qk.
+10C cinit CODE >632:C:\Temp\s6qk.
+10E cinit CODE >636:C:\Temp\s6qk.
+10F cinit CODE >637:C:\Temp\s6qk.
+110 cinit CODE >638:C:\Temp\s6qk.
+111 cinit CODE >639:C:\Temp\s6qk.
+112 cinit CODE >640:C:\Temp\s6qk.
+113 cinit CODE >646:C:\Temp\s6qk.
+113 cinit CODE >647:C:\Temp\s6qk.
+114 cinit CODE >648:C:\Temp\s6qk.
+116 maintext CODE >65:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+116 maintext CODE >68:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+118 maintext CODE >69:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+119 maintext CODE >70:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+11A maintext CODE >71:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+11B maintext CODE >83:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+11C maintext CODE >87:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+11D maintext CODE >88:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+11E maintext CODE >89:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+11F maintext CODE >91:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+120 maintext CODE >93:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+121 maintext CODE >96:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+122 maintext CODE >99:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+124 maintext CODE >100:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+125 maintext CODE >101:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+126 maintext CODE >103:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+127 maintext CODE >104:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+128 maintext CODE >106:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+12A maintext CODE >107:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+12B maintext CODE >113:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+12C maintext CODE >124:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+12F maintext CODE >129:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+130 maintext CODE >130:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+131 maintext CODE >131:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+132 maintext CODE >133:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+133 maintext CODE >134:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+134 maintext CODE >135:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+135 maintext CODE >136:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+136 maintext CODE >138:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+138 maintext CODE >139:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+139 maintext CODE >142:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+13A maintext CODE >147:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+13C maintext CODE >148:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+13D maintext CODE >149:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+13E maintext CODE >150:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+13F maintext CODE >151:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+140 maintext CODE >152:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+141 maintext CODE >155:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+143 maintext CODE >156:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+144 maintext CODE >157:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+145 maintext CODE >159:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+147 maintext CODE >160:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+148 maintext CODE >161:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+149 maintext CODE >165:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+14B maintext CODE >166:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+14C maintext CODE >167:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+14D maintext CODE >168:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+14E maintext CODE >169:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+14F maintext CODE >172:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+151 maintext CODE >173:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+152 maintext CODE >174:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+153 maintext CODE >175:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+154 maintext CODE >176:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+155 maintext CODE >177:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+156 maintext CODE >178:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+157 maintext CODE >179:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+158 maintext CODE >182:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+15A maintext CODE >183:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+15B maintext CODE >184:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+15C maintext CODE >185:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+15D maintext CODE >186:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+15E maintext CODE >187:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+15F maintext CODE >188:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+160 maintext CODE >189:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+161 maintext CODE >193:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+163 maintext CODE >194:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+165 maintext CODE >195:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+167 maintext CODE >199:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+169 maintext CODE >200:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+16A maintext CODE >201:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+16C maintext CODE >202:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+16D maintext CODE >203:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+16E maintext CODE >208:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+16F maintext CODE >210:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+170 maintext CODE >211:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+172 maintext CODE >213:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+174 maintext CODE >215:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+175 maintext CODE >220:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+177 maintext CODE >221:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+179 maintext CODE >222:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+17B maintext CODE >224:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+17D maintext CODE >227:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+17F maintext CODE >228:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+181 maintext CODE >229:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+183 maintext CODE >241:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+186 maintext CODE >242:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+188 maintext CODE >248:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+18C maintext CODE >249:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+190 maintext CODE >255:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+196 maintext CODE >277:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+19C maintext CODE >279:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1A2 maintext CODE >283:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1A5 maintext CODE >285:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1BA maintext CODE >289:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1C3 maintext CODE >290:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1C4 maintext CODE >291:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1C5 maintext CODE >292:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1C6 maintext CODE >295:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1CC maintext CODE >299:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1CF maintext CODE >300:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1E3 maintext CODE >301:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+1F9 maintext CODE >302:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+20F maintext CODE >303:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+21D maintext CODE >304:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+21F maintext CODE >244:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
 220 text2 CODE >492:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
 220 text2 CODE >533:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
 225 text2 CODE >536:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\doprnt.c
@@ -370,41 +370,41 @@ FF cinit CODE >615:C:\Temp\s7eg.
 4CF text1 CODE >10:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
 4D3 text1 CODE >9:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
 4D4 text1 CODE >12:C:\Program Files (x86)\Microchip\xc8\v1.34\sources\common\strlen.c
-4E2 text5 CODE >349:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
 4E2 text5 CODE >351:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-4E8 text5 CODE >353:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-4F0 text5 CODE >355:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-4F5 text5 CODE >351:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-4FA text7 CODE >314:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-4FA text7 CODE >317:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-4FC text7 CODE >320:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-4FD text7 CODE >321:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-4FE text7 CODE >322:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-4FF text7 CODE >323:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-500 text7 CODE >330:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-502 text7 CODE >332:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-503 text7 CODE >336:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-504 text7 CODE >338:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-506 text7 CODE >340:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-508 text7 CODE >341:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-509 clrtext CODE >591:C:\Temp\s7eg.
-509 clrtext CODE >592:C:\Temp\s7eg.
-50A clrtext CODE >593:C:\Temp\s7eg.
-50A clrtext CODE >594:C:\Temp\s7eg.
-50B clrtext CODE >595:C:\Temp\s7eg.
-50C clrtext CODE >596:C:\Temp\s7eg.
-50D clrtext CODE >597:C:\Temp\s7eg.
-50E clrtext CODE >598:C:\Temp\s7eg.
-50F clrtext CODE >599:C:\Temp\s7eg.
-510 clrtext CODE >600:C:\Temp\s7eg.
-511 clrtext CODE >601:C:\Temp\s7eg.
-512 clrtext CODE >602:C:\Temp\s7eg.
-513 clrtext CODE >604:C:\Temp\s7eg.
-514 clrtext CODE >603:C:\Temp\s7eg.
-515 text6 CODE >343:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-517 text6 CODE >345:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-51A text6 CODE >346:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
-51E text6 CODE >347:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+4E2 text5 CODE >353:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+4E8 text5 CODE >355:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+4F0 text5 CODE >357:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+4F5 text5 CODE >353:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+4FA text7 CODE >316:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+4FA text7 CODE >319:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+4FC text7 CODE >322:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+4FD text7 CODE >323:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+4FE text7 CODE >324:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+4FF text7 CODE >325:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+500 text7 CODE >332:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+502 text7 CODE >334:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+503 text7 CODE >338:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+504 text7 CODE >340:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+506 text7 CODE >342:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+508 text7 CODE >343:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+509 clrtext CODE >591:C:\Temp\s6qk.
+509 clrtext CODE >592:C:\Temp\s6qk.
+50A clrtext CODE >593:C:\Temp\s6qk.
+50A clrtext CODE >594:C:\Temp\s6qk.
+50B clrtext CODE >595:C:\Temp\s6qk.
+50C clrtext CODE >596:C:\Temp\s6qk.
+50D clrtext CODE >597:C:\Temp\s6qk.
+50E clrtext CODE >598:C:\Temp\s6qk.
+50F clrtext CODE >599:C:\Temp\s6qk.
+510 clrtext CODE >600:C:\Temp\s6qk.
+511 clrtext CODE >601:C:\Temp\s6qk.
+512 clrtext CODE >602:C:\Temp\s6qk.
+513 clrtext CODE >604:C:\Temp\s6qk.
+514 clrtext CODE >603:C:\Temp\s6qk.
+515 text6 CODE >345:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+517 text6 CODE >347:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+51A text6 CODE >348:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
+51E text6 CODE >349:F:\TP-moje dokumenty\Programowanie\Microchip\workspace\MiernikHz.X\main.c
 # %SYMTAB Section
 # An enumeration of all symbols in the program.
 # The beginning of the section is indicated by %SYMTAB.
@@ -436,11 +436,11 @@ __Hstrings 0 0 ABS 0 strings -
 _LATC 10E 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 _TMR0 15 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 _TMR2 1A 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
-___sp 0 0 STACK 2 stack C:\Temp\s7eg.obj
+___sp 0 0 STACK 2 stack C:\Temp\s6qk.obj
 _main 22C 0 CODE 0 maintext dist/default/production\MiernikHz.X.production.obj
 btemp 7E 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 ltemp 7E 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
-start 1EC 0 CODE 0 init C:\Temp\s7eg.obj
+start 1EC 0 CODE 0 init C:\Temp\s6qk.obj
 ttemp 7E 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 wtemp 7E 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 __CFG_BOREN$OFF 0 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
@@ -460,12 +460,12 @@ ttemp1 81 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 ttemp2 84 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 ttemp3 87 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 ttemp4 7F 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
-intlevel0 0 0 CODE 0 functab C:\Temp\s7eg.obj
-intlevel1 0 0 CODE 0 functab C:\Temp\s7eg.obj
-intlevel2 0 0 CODE 0 functab C:\Temp\s7eg.obj
-intlevel3 0 0 CODE 0 functab C:\Temp\s7eg.obj
-intlevel4 0 0 CODE 0 functab C:\Temp\s7eg.obj
-intlevel5 0 0 CODE 0 functab C:\Temp\s7eg.obj
+intlevel0 0 0 CODE 0 functab C:\Temp\s6qk.obj
+intlevel1 0 0 CODE 0 functab C:\Temp\s6qk.obj
+intlevel2 0 0 CODE 0 functab C:\Temp\s6qk.obj
+intlevel3 0 0 CODE 0 functab C:\Temp\s6qk.obj
+intlevel4 0 0 CODE 0 functab C:\Temp\s6qk.obj
+intlevel5 0 0 CODE 0 functab C:\Temp\s6qk.obj
 __LbssCOMMON 0 0 ABS 0 bssCOMMON -
 _OSCCONbits 99 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 wtemp0 7E 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
@@ -513,7 +513,7 @@ __pcstackBANK1 A0 0 BANK1 1 cstackBANK1 dist/default/production\MiernikHz.X.prod
 __size_of_USART_init 0 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 __size_of_USART_putc 0 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 __size_of_USART_puts 0 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
-___int_sp 0 0 STACK 2 stack C:\Temp\s7eg.obj
+___int_sp 0 0 STACK 2 stack C:\Temp\s6qk.obj
 __Hbank0 0 0 ABS 0 bank0 -
 __Hbank1 0 0 ABS 0 bank1 -
 __Hbank2 0 0 ABS 0 bank2 -
@@ -655,7 +655,7 @@ sprintf@val BB 0 BANK1 1 cstackBANK1 dist/default/production\MiernikHz.X.product
 __end_of_ISR 1EC 0 CODE 0 intentry dist/default/production\MiernikHz.X.production.obj
 __Lintentry 8 0 CODE 0 intentry -
 ___lldiv@divisor 36 0 BANK0 1 cstackBANK0 dist/default/production\MiernikHz.X.production.obj
-reset_vec 0 0 CODE 0 reset_vec C:\Temp\s7eg.obj
+reset_vec 0 0 CODE 0 reset_vec C:\Temp\s6qk.obj
 strlen@s 36 0 BANK0 1 cstackBANK0 dist/default/production\MiernikHz.X.production.obj
 __size_of___lmul 0 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 __LbssBANK0 0 0 ABS 0 bssBANK0 -
@@ -712,8 +712,8 @@ _timer3 48 0 BANK0 1 bssBANK0 dist/default/production\MiernikHz.X.production.obj
 _timer4 4A 0 BANK0 1 bssBANK0 dist/default/production\MiernikHz.X.production.obj
 _timer5 4C 0 BANK0 1 bssBANK0 dist/default/production\MiernikHz.X.production.obj
 __CFG_VCAPEN$OFF 0 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
-stackhi 20EF 0 ABS 0 - C:\Temp\s7eg.obj
-stacklo 207A 0 ABS 0 - C:\Temp\s7eg.obj
+stackhi 20EF 0 ABS 0 - C:\Temp\s6qk.obj
+stacklo 207A 0 ABS 0 - C:\Temp\s6qk.obj
 _przycisk_tmp 7D 0 COMMON 1 bssCOMMON dist/default/production\MiernikHz.X.production.obj
 __pbssBIGRAM 20F0 0 ABS 0 - dist/default/production\MiernikHz.X.production.obj
 i1___lldiv@counter 2C 0 BANK0 1 cstackBANK0 dist/default/production\MiernikHz.X.production.obj

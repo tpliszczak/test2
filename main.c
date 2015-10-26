@@ -51,7 +51,7 @@ volatile unsigned char flagPomiarStop;
 volatile unsigned long wynikHz;
 volatile unsigned char n;
 volatile unsigned char wynikHzTmp;
-volatile unsigned char i;
+
 
 //funkcje
 void USART_init(void);

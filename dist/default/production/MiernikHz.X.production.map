@@ -5,7 +5,7 @@ Linker command line:
 --edf=C:\Program Files (x86)\Microchip\xc8\v1.34\dat\en_msgs.txt -cs \
   -h+dist/default/production\MiernikHz.X.production.sym \
   --cmf=dist/default/production\MiernikHz.X.production.cmf -z -Q16F1516 \
-  -oC:\Temp\s7eg.6 -Mdist/default/production/MiernikHz.X.production.map -E1 \
+  -oC:\Temp\s6qk.6 -Mdist/default/production/MiernikHz.X.production.map -E1 \
   -ver=XC8 -ASTACK=0207Ah-020efh -pstack=STACK -ACODE=00h-07FFhx4 \
   -ASTRCODE=00h-01FFFh -ASTRING=00h-0FFhx32 -ACONST=00h-0FFhx32 \
   -AENTRY=00h-0FFhx32 -ACOMMON=070h-07Fh -ABANK0=020h-06Fh \
@@ -27,7 +27,7 @@ Linker command line:
   -ASFR31=0F80h-0FEFh -preset_vec=00h,intentry=04h,init,end_init \
   -ppowerup=CODE -pcinit=CODE -pfunctab=CODE -ACONFIG=08007h-08008h \
   -pconfig=CONFIG -DCONFIG=2 -AIDLOC=08000h-08003h -pidloc=IDLOC -DIDLOC=2 \
-  -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k C:\Temp\s7eg.obj \
+  -DCODE=2 -DSTRCODE=2 -DSTRING=2 -DCONST=2 -DENTRY=2 -k C:\Temp\s6qk.obj \
   dist/default/production\MiernikHz.X.production.obj 
 
 Object code version is 3.11
@@ -37,7 +37,7 @@ Machine type is 16F1516
 
 
                 Name                               Link     Load   Length Selector   Space Scale
-C:\Temp\s7eg.obj
+C:\Temp\s6qk.obj
                 end_init                             F6       F6        2        8       0
                 reset_vec                             0        0        2        0       0
                 config                             8007     8007        2    1000E       0
@@ -712,7 +712,7 @@ FUNCTION INFORMATION:
 
  *************** function _main *****************
  Defined at:
-		line 63 in file "main.c"
+		line 65 in file "main.c"
  Parameters:    Size  Location     Type
   argc            2   33[BANK1 ] int 
   argv            2   35[BANK1 ] PTR PTR unsigned char 
@@ -882,7 +882,7 @@ Total ram usage:       14 bytes
 
  *************** function _USART_puts *****************
  Defined at:
-		line 349 in file "main.c"
+		line 351 in file "main.c"
  Parameters:    Size  Location     Type
   s               2   28[BANK0 ] PTR volatile unsigned ch
 		 -> STR_6(3), STR_4(5), ramkaTX(256), STR_1(16), 
@@ -914,7 +914,7 @@ Total ram usage:        5 bytes
 
  *************** function _USART_putc *****************
  Defined at:
-		line 343 in file "main.c"
+		line 345 in file "main.c"
  Parameters:    Size  Location     Type
   c               1    wreg     unsigned char 
  Auto vars:     Size  Location     Type
@@ -944,7 +944,7 @@ Total ram usage:        1 bytes
 
  *************** function _USART_init *****************
  Defined at:
-		line 314 in file "main.c"
+		line 316 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type
@@ -974,7 +974,7 @@ Total ram usage:        0 bytes
 
  *************** function _ISR *****************
  Defined at:
-		line 363 in file "main.c"
+		line 365 in file "main.c"
  Parameters:    Size  Location     Type
 		None
  Auto vars:     Size  Location     Type

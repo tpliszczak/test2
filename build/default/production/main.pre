@@ -2705,13 +2705,12 @@ volatile unsigned char n;
 volatile unsigned char wynikHzTmp;
 
 
+
 void USART_init(void);
 void USART_putc(unsigned char c );
 void USART_puts(volatile unsigned char *s,unsigned char l);
 
-
-
-
+# 65
 int main(int argc, char** argv) {
 
 
@@ -2720,7 +2719,7 @@ OSCCONbits.IRCF1 = 1;
 OSCCONbits.IRCF2 = 1;
 OSCCONbits.IRCF3 = 1;
 
-# 81
+# 83
 OPTION_REGbits.INTEDG = 0;
 
 
@@ -2747,10 +2746,10 @@ T1CONbits.TMR1CS1 = 0;
 PIE1bits.TMR1IE = 1;
 INTCONbits.PEIE = 1;
 
-# 111
+# 113
 TRISCbits.TRISC2 = 1;
 
-# 122
+# 124
 PR2 = 244;
 
 
@@ -2858,7 +2857,7 @@ ANSELAbits.ANSA5 = 0;
 TRISAbits.TRISA5 = 0;
 LATAbits.LATA5 = 0;
 
-# 239
+# 241
 USART_init();
 Hz = 0;
 
@@ -2869,10 +2868,10 @@ while(1){
 if (timer1==0) {
 timer1 =20;
 
-# 253
+# 255
 Hz = TMR0;
 
-# 272
+# 274
 }
 
 
@@ -2926,7 +2925,7 @@ TXSTAbits.SYNC = 0;
 RCSTAbits.SPEN = 1;
 TXSTAbits.BRGH = 1;
 
-# 330
+# 332
 SPBRGL = 51;
 
 SPBRGH = 0x00;
@@ -2970,7 +2969,7 @@ multi++;
 INTCONbits.TMR0IF = 0;
 }
 
-# 377
+# 379
 if ( PIR1bits.TMR2IF == 1) {
 n++;
 if ( (n>19) && (flagPomiarStart == 2) ) {
@@ -3009,7 +3008,7 @@ PIR1bits.TMR2IF = 0;
 
 if ( PIR1bits.TMR1IF == 1) {
 
-# 422
+# 424
 TMR1H = 255;
 TMR1L = 6;
 
@@ -3023,7 +3022,7 @@ LATCbits.LATC5 ^= 1;
 PIR1bits.TMR1IF = 0;
 }
 
-# 441
+# 443
 if ( INTCONbits.IOCIF == 1 ) {
 
 
